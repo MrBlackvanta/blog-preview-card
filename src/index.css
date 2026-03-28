@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --color-yellow: hsl(47, 88%, 63%);
+
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-gray-500: hsl(0, 0%, 42%);
+  --color-gray-950: hsl(0, 0%, 7%);
+
+  --font-figree: "Figtree", sans-serif;
+}
+
+body {
+  font-family: var(--font-figree);
+}
