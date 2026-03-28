@@ -30,20 +30,22 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Built with
 
-- React + Vite
-- TypeScript
-- Tailwind CSS (utility-first styling)
-- Component-based structure (`QRCodeCard` in `src/components`)
-- Mobile-first layout with responsive utilities
-- Asset imports (local image in `src/assets/image-qr-code.png`)
+- [React](https://react.dev/) 19 and [Vite](https://vite.dev/) 8
+- [TypeScript](https://www.typescriptlang.org/) with strict compiler options
+- [Tailwind CSS v4](https://tailwindcss.com/) via `@tailwindcss/vite`, design tokens in `@theme`, and custom typography utilities (`text-preset-*`) in `src/index.css`
+- [Figtree](https://fonts.google.com/specimen/Figtree) from Google Fonts (preloaded in `index.html`)
+- Component layout in `BlogPreviewCard` (`src/components/BlogPreviewCard.tsx`)
+- Article graphic as a React SVG module (`IllustrationArticleSVG.tsx` in `src/assets`)
+- Avatar photo imported from `src/assets/image-avatar.webp`
+- Path imports from `src` as the base URL (`components`, `assets`, etc.)
 
 ### What I learned
 
-- Converting a static design into a component-based app using React props and clean markup.
-- Using Tailwind CSS classes in JSX for rapid, consistent styling and spacing.
-- Structuring the app to keep `QRCodeCard` reusable and isolated (presentation-only component).
-- Setting up the project with Vite and TypeScript for fast development and type safety.
-- Importing images in React and keeping static assets at `src/assets`.
+- Marking up a card with semantic elements (`<section>`, `<figure>`, `<time dateTime>`, `<figcaption>`) for structure and accessibility.
+- Extending Tailwind v4 in CSS with `@theme` for challenge colors and `@utility` for repeatable type scales instead of repeating long class strings in JSX.
+- Using an SVG as a typed React component for a crisp illustration that bundles with the app.
+- Layering layout with CSS Grid (`place-items-center`, `place-content-center`) and viewport height (`h-dvh`) for a centered, full-screen shell around the card.
+- Matching the design’s “hard” shadow and border with arbitrary utilities (e.g. offset box shadow) while keeping spacing and radii consistent on the card.
 
 ## Author
 
