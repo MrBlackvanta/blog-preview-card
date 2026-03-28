@@ -7,15 +7,15 @@ export default function BlogPreviewCard() {
       <figure className="overflow-hidden rounded-[10px]">
         <IllustrationArticleSVG />
       </figure>
-      <div className="space-y-3">
-        <h2 className="text-preset-3-bold bg-yellow w-fit rounded-sm px-3 py-1">
+      <div className="grid gap-3">
+        <h1 className="text-preset-1 order-3">HTML & CSS foundations</h1>
+        <h2 className="text-preset-3-bold bg-yellow order-1 w-fit rounded-sm px-3 py-1">
           Learning
         </h2>
-        <p className="text-preset-3">
+        <p className="text-preset-3 order-2">
           Published <time dateTime="2023-12-21">21 Dec 2023</time>
         </p>
-        <h1 className="text-preset-1">HTML & CSS foundations</h1>
-        <p className="text-preset-2 text-gray-500">
+        <p className="text-preset-2 order-4 text-gray-500">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
