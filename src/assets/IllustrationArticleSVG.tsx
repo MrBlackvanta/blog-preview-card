@@ -7,6 +7,7 @@ export default function IllustrationArticleSVG() {
       width={336}
       height={201}
       fill="none"
+      aria-hidden="true"
     >
       <g clipPath="url(#a673h12)">
         <path fill="#F4D04E" d="M0 .5h336v200H0z" />
