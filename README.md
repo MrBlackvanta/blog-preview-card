@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/qr-code-component-v2)
-- Live Site URL: [Netlify](https://vanta-qr-code-component.netlify.app)
+- Live Site URL: [Netlify](https://vanta-blog-preview-card.netlify.app)
 
 ## My process
 
