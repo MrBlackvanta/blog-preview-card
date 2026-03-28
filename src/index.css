@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --color-yellow-02: hsl(47, 88%, 63%);
+  --color-yellow: hsl(47, 88%, 63%);
 
   --color-white: hsl(0, 0%, 100%);
 
@@ -11,6 +11,31 @@
   --font-figree: "Figtree", sans-serif;
 }
 
+@theme {
+  --color-yellow: var(--color-yellow);
+
+  --color-white: var(--color-white);
+
+  --color-gray-500: var(--color-gray-500);
+  --color-gray-950: var(--color-gray-950);
+}
+
 body {
   font-family: var(--font-figree);
+}
+
+@utility text-preset-1 {
+  @apply text-xl leading-normal font-extrabold tracking-normal sm:text-2xl;
+}
+
+@utility text-preset-2 {
+  @apply text-sm leading-normal font-medium tracking-normal sm:text-base;
+}
+
+@utility text-preset-3 {
+  @apply text-xs leading-normal font-medium tracking-normal sm:text-sm;
+}
+
+@utility text-preset-3-bold {
+  @apply text-xs leading-normal font-extrabold tracking-normal sm:text-sm;
 }
