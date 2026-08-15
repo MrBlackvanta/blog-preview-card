@@ -21,7 +21,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MrBlackvanta/blog-preview-card)
-- Live Site URL: [Netlify](https://vanta-blog-preview-card.netlify.app)
+- Live Site URL: [Cloudflare](https://blog-preview-card.abdelrhman-ahmed8881.workers.dev)
+- Mirror: [Netlify](https://vanta-blog-preview-card.netlify.app)
 
 ## My process
 
