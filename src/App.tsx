@@ -8,16 +8,7 @@ export default function App() {
       </main>
 
       <footer className="text-preset-2 absolute bottom-4 w-full text-center font-light text-gray-950">
-        Challenge by{" "}
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          className="font-bold"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Frontend Mentor
-        </a>
-        . Coded by{" "}
+        Coded by{" "}
         <a
           href="https://www.linkedin.com/in/abdelrhman-vanta/"
           className="font-bold"
