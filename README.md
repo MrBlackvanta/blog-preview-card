@@ -10,21 +10,10 @@ challenge on Frontend Mentor.
 
 ## Built with
 
-- React 19 and Vite
+- React
+- Vite
 - TypeScript
-- Tailwind CSS v4
-- Figtree from Google Fonts
-
-## Notes
-
-The type scale from the style guide lives in `src/index.css` as `@utility text-preset-*`
-classes rather than being repeated across the JSX. Colours go in `@theme`.
-
-The illustration is imported as a React SVG component so it bundles with the app instead
-of costing a request.
-
-The date is a `<time dateTime>` element, and the card is a `<section>` with the avatar
-row as a `<figure>`.
+- Tailwind CSS
 
 ## Author
 
